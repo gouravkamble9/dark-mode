@@ -80,7 +80,7 @@ p{
 }
 
 .mode-switch input:checked + .slider{
-    background-color: #2196f3;
+    background-color: var(--heading-color);
 }
 
 .mode-switch .slider::before{
@@ -91,7 +91,7 @@ p{
     left: 2px;
     bottom: 1.5px;
     border-radius: 50%;
-    background-color: white;
+    background-color: var(--bg-color);
     transition: 0.4s;
 }
 
